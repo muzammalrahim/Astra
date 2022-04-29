@@ -79,8 +79,10 @@ const Login = () => {
                             {/* <Col span={12}>
                 <img src={ahilLogo} className="Ahli-Logo" alt="broken" />
               </Col> */}
-                            <Col span={12}>
-                                <p className="login-text">LOGIN</p>
+                            <Col>
+                                <p className="login-text"
+                                style={{fontWeight: '500'}}
+                                >Login</p>
                             </Col>
                             <Col span={24}>
                                 <Form

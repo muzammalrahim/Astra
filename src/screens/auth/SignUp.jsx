@@ -60,10 +60,19 @@ const SignUp = () => {
         <Layout className="kp-form-container">
             <Content className="kp-form-container-body center-elements-container">
                 <Row className="adjust-width-100">
-                    <Col span={7} offset={13}>
+                    <Col span={9}></Col>
+                    <Col span={6}
+                    style={{
+                        background: 'white',
+                        padding: '20px',
+                        margin: '50px 0'
+                        }}
+                    >
                         <div className="form-custom-style white-bg">
-                            <Col span={12}>
-                                <p className="login-text">Sign up to your account</p>
+                            <Col>
+                                <p className="login-text"
+                                style={{fontWeight: '500'}}
+                                >Sign up to your account</p>
                             </Col>
                             <Col span={24}>
                                 <Form
@@ -176,6 +185,7 @@ const SignUp = () => {
                             </Col>
                         </div>
                     </Col>
+                    <Col span={9}></Col>
                 </Row>
             </Content>
         </Layout>
